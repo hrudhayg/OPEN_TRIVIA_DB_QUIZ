@@ -1,12 +1,39 @@
-# React + Vite
+# Open Trivia Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React quiz application powered by the [Open Trivia Database API](https://opentdb.com/). Users can select their name, category, and difficulty level to get randomized multiple-choice questions. The app features animated rainbow gradients, Bootstrap styling, and smooth quiz flow with results and retry options.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Choose user name, question category (4 options), and difficulty (easy, medium, hard)
+- Fetches questions dynamically from Open Trivia Database API
+- Displays multiple-choice questions with shuffled answers
+- Shows immediate results with correct/incorrect feedback
+- Option to try another question
+- Responsive design with Bootstrap
+- Animated colorful backgrounds and text for a modern look
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React (with hooks)
+- Bootstrap 5
+- Open Trivia Database API
+- he (HTML entities decoder)
+- CSS animations for gradient effects
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hrudhayg/OPEN_TRIVIA_DB_QUIZ.git
